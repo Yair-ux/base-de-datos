@@ -2,9 +2,12 @@
   "name": "todo-backend",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
+
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+   
     "start": "node server.js"
+    
   },
   "dependencies": {
     "cors": "^2.8.5",
